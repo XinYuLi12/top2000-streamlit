@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # [DA1] Load & clean the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/xinyuli/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Top2000_Companies_Globally_Fixed.csv", encoding="utf-8")
+    df = pd.read_csv("Top2000_Companies_Globally_Fixed.csv", encoding="utf-8")
     df.columns = df.columns.str.strip()
     df = df.dropna(subset=["Global Rank", "Sales ($billion)", "Profits ($billion)", "Market Value ($billion)", "Latitude_final", "Longitude_final"])
     return df
