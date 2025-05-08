@@ -1,3 +1,11 @@
+"""
+Name: top2000_streamlit.py  
+CS230: Section 2
+Data: Top 2000 Global Companies  
+URL: https://top2000-app-ahbpjnd63fycqebee8k3rk.streamlit.app/  
+Description:  
+An interactive Streamlit app to explore the Top 2000 Global Companies by filtering and visualizing data with tables, charts, and a world map.
+"""
 
 import pandas as pd
 import streamlit as st
